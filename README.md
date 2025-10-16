@@ -1,1 +1,1 @@
-# 33-Lead-Magnet-Templates---sales-landing-page
+# 33 Lead Magnet Templates - sales landing page
