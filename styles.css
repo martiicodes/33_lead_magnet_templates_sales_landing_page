@@ -482,15 +482,31 @@ margin: 80px auto 0 auto;
   }
 }
 
-
 /* iPhone size adjustments */
 @media only screen and (max-width: 480px) {
+  .copy {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 20px auto 0 auto;
+  }
+
+  .copy p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  .copy strong {
+    display: block;
+    font-size: 17px;
+  }
+
   .copy .shadowed {
     width: 100%;
     max-width: 250px; /* adjust to your preferred size */
     height: auto;
     display: block;
-    margin: 20px auto; /* center the image */
+    margin: 20px auto;
   }
 
   .copy .trusted-by {
@@ -501,6 +517,7 @@ margin: 80px auto 0 auto;
     margin: 20px auto;
   }
 }
+
 
 /* iPhone adjustments for main testimonial section */
 
@@ -793,24 +810,25 @@ margin: 80px auto 0 auto;
   }
 }
 
-/* Responsive for .copy-5 */
+/* Responsive for .copy-5 — styled like .copy-2 */
 @media only screen and (max-width: 480px) {
   .copy-5 {
     max-width: 100%;
-    padding: 0 15px;     /* horizontal padding */
+    padding: 0 20px;          /* a bit more breathing room */
+    margin: 20px auto 0 auto; /* centered layout like .copy-2 */
     box-sizing: border-box;
   }
 
   .copy-5 p {
-    font-size: 14px;     /* smaller text for mobile */
+    font-size: 16px;          /* larger, more readable */
     line-height: 1.4;
-    margin-bottom: 12px;
-    word-wrap: break-word; /* prevent text overflow */
+    margin-bottom: 20px;      /* better paragraph spacing */
+    word-wrap: break-word;
   }
 
   .copy-5 strong {
-    font-size: 15px;     /* slightly bigger for emphasis */
     display: block;
+    font-size: 17px;          /* subtle emphasis */
   }
 }
 
