@@ -1,0 +1,897 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 300; 
+  font-style: normal;
+  line-height: 1.6;
+  color: #000;
+  margin: 0 auto;
+}
+
+.headlines {
+  background-color: #e2dd17;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.headlines h1 {
+  max-width: 1800px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: clamp(35px, 5vw, 60px);
+  line-height: 1.2;
+}
+
+.headlines .highlight {
+  color: #ffffff;;
+}
+
+.subheadline {
+  font-size: clamp(25px, 3vw, 40px);
+  max-width: 1200px;
+  margin: 20px auto 0;
+  line-height: 1.4;
+}
+
+.copy {
+  max-width: 600px;
+  padding: 0 20px;
+  font-size: 30px;
+  text-align: left;
+  margin: 40px auto 0 auto;
+}
+
+.copy p {
+  margin: 0 0 60px 0; 
+}
+
+.copy a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.highlight-text {
+  background-color: #e2dd17;
+  padding: 2px 4px;
+}
+
+  .subheadline {
+    font-size: 40;
+  }
+
+  .header {
+    height: auto; 
+    padding-bottom: 0;
+  }
+
+  .testimonial-section {
+    background-color: #e2dd17; 
+    margin-top: 40px;
+    padding: 40px 20px; 
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial-section p {
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .proof-section {
+    background-color: #e2dd17;
+    padding: 20px 40px;
+    display: inline-block; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 600px;
+    margin-bottom: 50px;
+  }
+
+  .proof-section p {
+    font-size: 20px;
+    margin: 10px 10px;
+    text-align: center;
+  }
+
+  .jeff-walker-quote {
+    background-color: #e2dd17;
+    display: inline-block; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+    width: 600px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .jeff-walker-quote p {
+    font-size: 20px;
+  }
+
+.second-testimonial-section {
+  background-color: #e2dd17; 
+  margin-top: 40px;
+  padding: 40px 20px; 
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.second-testimonial-section p {
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.offer-introduction p {
+  font-size: 40px;
+}
+
+.offer-introduction-image {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.offer-introduction-image img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.copy-2 {
+  max-width: 600px;
+  padding: 0 20px;
+  font-size: 30px;
+  text-align: left;
+  margin: 40px auto 0 auto;
+}
+
+.offer-introduction-2 p {
+  font-size: 40px;
+}
+
+.offer-introduction-image-2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer-introduction-image-2 img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.copy-3 {
+  max-width: 600px;
+  padding: 0 20px;
+  font-size: 30px;
+  text-align: left;
+  margin: 40px auto 0 auto;
+}
+
+.process {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.process img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.offer-price {
+  background-color: #e2dd17; 
+  margin-top: 40px;
+  padding: 40px 20px; 
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.offer-price img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+}
+
+.shadowed {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.offer-introduction-image-2 figcaption {
+  font-size: 30px;    
+  margin-top: 10px;     
+  color: #555;          
+}
+
+.trusted-by {
+  margin-bottom: 30px;
+}
+
+.three-testimonials {
+  width: 600px;      
+  max-width: 100%;    
+  display: block;    
+  margin: 0 auto; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.copy-4 {
+  max-width: 600px;
+  padding: 0 20px;
+  font-size: 30px;
+  text-align: left;
+  margin: 40px auto 0 auto;
+}
+
+.special-offer {
+  background-color: #e2dd17;
+  padding: 40px 20px;  
+  text-align: center;
+}
+
+.special-offer-2 {
+padding: 40px 20px;  
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #000;    
+  color: #fff;         
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1000;   
+  font-size: 30px;
+  padding-top: 30px;  
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: none;
+  border-radius: 15px;        
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0px; 
+}
+
+.cta-button-2 {
+  background-color: #000;    
+  color: #fff;         
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1000;   
+  font-size: 30px;
+  padding-top: 30px;  
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: none;
+  border-radius: 15px;        
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0px; 
+}
+
+.cta-button:hover {   
+  transform: scale(1.05);
+  background-color: #fff; /* white background on hover */
+  color: #000;     
+}
+
+.cta-button-2:hover {   
+  transform: scale(1.05);
+  background-color: #e2dd17;
+  color: #000;     
+}
+
+video {
+  width: calc(600px + 80px);
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.cta-intro {
+  max-width: 600px;       /* match your other copy */
+  margin: 10px auto;      /* center container horizontally */
+  font-size: 30px;        /* match other copy */
+  line-height: 1.6; 
+  text-align: left; 
+}
+
+.cta-into p {
+  margin: 0; 
+}
+
+.copy-5 {
+  max-width: 600px;
+  padding: 0 20px;
+  font-size: 30px;
+  text-align: left;
+  margin: 40px auto 0 auto;
+}
+
+.countdown-timer {
+  background-color: #e2dd17;
+  width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-family: "Roboto", sans-serif;
+}
+
+.countdown-timer p {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.countdown-timer #timer {
+  display: inline-block;
+  background-color: #000; /* black squares */
+  padding: 20px 20px;
+  border-radius: 10px;
+  font-size: 50px;
+  letter-spacing: 2px;
+  min-width: 200px;
+}
+
+.faq-section {
+background-color: #e2dd17;
+padding: 50px 20px;
+}
+
+.faq-container {
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.faq-section h2 {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 40px;
+font-weight: 700;
+}
+
+.faq-item {
+margin-bottom: 20px;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.faq-question {
+width: 100%;
+background: none;
+border: none;
+text-align: left;
+padding: 15px;
+font-size: 1.1rem;
+font-weight: 600;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+.faq-question:hover {
+background-color: rgba(0,0,0,0.05);
+}
+
+.faq-answer {
+display: none;
+padding: 0 15px 15px 15px;
+font-size: 1rem;
+line-height: 1.5;
+}
+
+.faq-item.active .faq-answer {
+display: block;
+}
+.price-caption {
+text-align: center;
+margin-top: 8px;
+font-weight: bold;
+color: #000; /* or any color that fits your yellow background */
+font-size: 20px;
+}
+
+html, body {
+overflow-x: hidden;
+}
+
+.author-image {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+margin-top: 80px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.linkedin-icon img {
+width: 36px;
+height: 36px;
+margin-top: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: transform 0.2s ease;
+}
+
+.linkedin-icon img:hover {
+transform: scale(1.1);
+}
+
+.copy-6 {
+max-width: 600px;
+padding: 0 20px;
+font-size: 30px;
+text-align: center;
+margin: 80px auto 0 auto;
+}
+
+/* iPhone and small mobile screens */
+@media screen and (max-width: 480px) {
+  .copy {
+    font-size: 18px; /* smaller text for iPhone */
+    padding: 0 15px; /* optional: reduce side padding */
+  }
+}
+
+/* iPhone size adjustments */
+@media only screen and (max-width: 480px) {
+  .copy {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 20px auto 0 auto;
+  }
+
+  .copy p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  .copy strong {
+    display: block;
+    font-size: 17px;
+  }
+
+  .copy .shadowed {
+    width: 100%;
+    max-width: 250px; /* adjust to your preferred size */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .copy .trusted-by {
+    width: 100%;
+    max-width: 200px; /* adjust as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+
+/* iPhone adjustments for main testimonial section */
+
+@media only screen and (max-width: 480px) {
+  .testimonial-section {
+    max-width: 100%;      /* ensure it doesn’t exceed screen width */
+    overflow-x: hidden;   /* hide horizontal overflow */
+    padding: 0 10px;      /* small horizontal padding */
+  }
+
+  .testimonial-section p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    word-wrap: break-word; /* wrap long text or names */
+  }
+
+  .testimonial-section strong {
+    font-size: 15px;
+    word-wrap: break-word; /* wrap long names */
+  }
+
+  .testimonial-section i {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html, body {
+    overflow-x: hidden; /* prevents any horizontal scroll */
+  }
+
+  .copy {
+    max-width: 100%;
+    padding: 0 10px; /* reduce side padding */
+  }
+
+  .copy img,
+  .copy video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .proof-section {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px; /* keep left/right padding */
+    margin: 0 auto 30px auto; /* add 30px margin at the bottom */
+    box-sizing: border-box;
+  }
+
+  .proof-section p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .proof-section strong {
+    display: block;
+    font-size: 16px;
+  }
+
+  .proof-section i {
+    font-size: 14px;
+    display: block;
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jeff-walker-quote {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;      /* same left/right padding as proof-section */
+    margin: 0 auto 30px auto; /* adds space below */
+    box-sizing: border-box;    /* ensures padding counts inside width */
+  }
+
+  .jeff-walker-quote p {
+    font-size: 15px;       /* smaller text for mobile */
+    line-height: 1.4;
+    margin-bottom: 15px;   /* space between paragraphs */
+  }
+
+  .jeff-walker-quote i {
+    font-size: 14px;
+    display: block;
+    margin-top: 2px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .second-testimonial-section {
+    max-width: 100%;      /* ensure it doesn’t exceed screen width */
+    overflow-x: hidden;   /* hide horizontal overflow */
+    padding: 0 10px;      /* small horizontal padding */
+  }
+
+  .second-testimonial-section p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    word-wrap: break-word; /* wrap long text or names */
+  }
+
+  .second-testimonial-section strong {
+    font-size: 15px;
+    word-wrap: break-word; /* wrap long names */
+  }
+
+  .second-testimonial-section i {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .offer-introduction p {
+    font-size: 25px; /* slightly bigger */
+    line-height: 1.35;
+  }
+
+  .offer-introduction strong {
+    font-size: 27px; /* slightly bigger than paragraph */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .offer-introduction-image {
+    padding: 0 15px; /* space on left and right */
+    box-sizing: border-box; /* ensures padding doesn't break layout */
+  }
+
+  .offer-introduction-image img {
+    width: 100%; /* keeps image responsive */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* center image */
+  }
+}
+
+/* Responsive for iPhone */
+@media only screen and (max-width: 480px) {
+  .copy-2 {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 20px auto 0 auto;
+  }
+
+  .copy-2 p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  .copy-2 strong {
+    display: block;
+    font-size: 17px;
+  }
+}
+
+/* Responsive for screens up to 480px */
+@media only screen and (max-width: 480px) {
+  .offer-introduction-image-2 figcaption {
+    font-size: 12px; /* even smaller on iPhone */
+    margin-top: 6px; /* slightly less space for compact layout */
+  }
+
+  .offer-introduction-image-2 img {
+    max-width: 100%; /* ensures image doesn’t overflow screen */
+    height: auto;    /* maintain aspect ratio */
+  }
+}
+
+/* Responsive tweaks for small screens (iPhone etc.) */
+@media only screen and (max-width: 480px) {
+  .copy-3 {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 20px auto;
+    font-size: 18px; /* smaller text */
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+
+  .copy-3 p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .copy-3 ul li,
+  .copy-3 ol li {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .copy-3 strong {
+    display: block;
+    font-size: 17px;
+  }
+
+  .copy-3 a {
+    font-size: 16px;
+  }
+
+  .copy-3 .process img,
+  .copy-3 .three-testimonials,
+  .copy-3 img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+  }
+}
+
+/* Responsive tweaks for small screens */
+@media only screen and (max-width: 480px) {
+  .offer-price .cta-intro p {
+    font-size: 18px;  /* smaller text on mobile */
+    line-height: 1.4;
+    margin-bottom: 15px;
+    word-wrap: break-word; /* prevent overflow */
+  }
+}
+
+/* Responsive tweaks for mobile */
+@media only screen and (max-width: 480px) {
+  .offer-price .cta-intro p {
+    font-size: 18px;   /* smaller text on phones */
+    line-height: 1.4;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+  }
+
+  .offer-price .special-offer .cta-button {
+    padding: 12px 28px;  /* smaller button on phones */
+    font-size: 16px;
+  }
+}
+
+/* Responsive tweaks for small screens */
+@media only screen and (max-width: 480px) {
+  .copy-4 {
+    max-width: 100%;
+    padding: 0 15px;  /* smaller horizontal padding */
+    font-size: 18px;  /* smaller text on mobile */
+    line-height: 1.4;
+  }
+
+  .copy-4 p {
+    margin-bottom: 12px;
+  }
+
+  .copy-4 ul {
+    padding-left: 15px;
+  }
+
+  .copy-4 li {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .copy-4 .highlight-text {
+    font-size: 17px; /* adjust highlighted text */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .copy-4 img {
+    max-width: 70%;  /* makes it smaller on small screens */
+    margin: 15px auto; /* slightly less vertical space on mobile */
+  }
+}
+
+/* Special Offer 2 button responsiveness */
+@media only screen and (max-width: 480px) {
+  .special-offer-2 .cta-button-2 {
+    font-size: 14px;      /* smaller text */
+    padding: 10px 20px;   /* smaller padding */
+    width: 90%;            /* almost full width on mobile */
+    max-width: 300px;      /* optional: limit max width */
+    display: block;
+    margin: 10px auto;     /* center horizontally */
+  }
+
+  .special-offer-2 .price-caption {
+    font-size: 13px;       /* smaller price text */
+    text-align: center;    /* center below button */
+    margin-top: 5px;
+  }
+}
+
+/* Responsive for .copy-5 — styled like .copy-2 */
+@media only screen and (max-width: 480px) {
+  .copy-5 {
+    max-width: 100%;
+    padding: 0 20px;          /* a bit more breathing room */
+    margin: 20px auto 0 auto; /* centered layout like .copy-2 */
+    box-sizing: border-box;
+  }
+
+  .copy-5 p {
+    font-size: 16px;          /* larger, more readable */
+    line-height: 1.4;
+    margin-bottom: 20px;      /* better paragraph spacing */
+    word-wrap: break-word;
+  }
+
+  .copy-5 strong {
+    display: block;
+    font-size: 17px;          /* subtle emphasis */
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-timer {
+    max-width: 320px;          /* limit width on small screens */
+    padding: 20px;             /* padding inside yellow box */
+    margin: 0 auto 30px auto;  /* center horizontally, space below */
+    box-sizing: border-box;   
+    text-align: center;        
+    background-color: #FFD800; 
+    border-radius: 10px;      
+  }
+
+  .countdown-timer p {
+    font-size: 15px;          
+    line-height: 1.4;
+    margin-bottom: 15px;      
+  }
+
+  .countdown-timer #timer {
+    font-size: 18px;          
+    display: inline-block;
+    padding: 10px 15px;       
+    box-sizing: border-box;
+  }
+}
+
+/* Responsive styling for .copy-6 */
+@media (max-width: 480px) {
+  .copy-6 {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;      /* same horizontal padding as other .copy sections */
+    margin: 0 auto 20px auto; /* center horizontally, add space below */
+    box-sizing: border-box;
+  }
+
+  .copy-6 p {
+    font-size: 15px;      /* smaller text for mobile */
+    line-height: 1.4;
+    margin-bottom: 15px;  /* space between paragraphs */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .faq-section {
+    padding: 0 20px;       /* keep same padding on mobile */
+  }
+
+  .faq-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .faq-section .faq-question {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  .faq-section .faq-answer p,
+  .faq-section .faq-answer {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+}
