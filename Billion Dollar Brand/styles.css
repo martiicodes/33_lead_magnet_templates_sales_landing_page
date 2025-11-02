@@ -1377,3 +1377,21 @@ padding-left: 10px;   /* optional, space for bullets */
   }
 }
 
+@media (max-width: 600px) {
+  .shadowed-figure-2 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .shadowed-figure-2 figcaption {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .shadowed-figure-2 {
+    gap: 20px;
+  }
+}
+
+
