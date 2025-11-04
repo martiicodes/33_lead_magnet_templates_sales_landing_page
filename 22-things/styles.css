@@ -92,7 +92,6 @@ body {
   align-items: center;
 }
 
-/* Ensure the Kit form itself is centered */
 .form-container .seva-form,
 .form-container-2 .seva-form {
   margin: 0 auto;
@@ -111,7 +110,7 @@ body {
   .headline {
     font-size: 36px;
     line-height: 1.2;
-    padding: 0 15px; /* ensures better wrapping on smaller screens */
+    padding: 0 15px; 
   }
 
   .landing {
@@ -136,7 +135,6 @@ body {
   }
 }
 
-/* --- Clean and centered ebook cover --- */
 .ebook-cover {
   display: flex;
   justify-content: center;
@@ -150,7 +148,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* --- Responsive scaling --- */
 @media (max-width: 768px) {
   .ebook-cover img {
     width: 70%;
