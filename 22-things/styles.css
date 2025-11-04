@@ -98,6 +98,76 @@ body {
   margin: 0 auto;
 }
   
+@media (max-width: 768px) {
+  .full-width-header {
+    padding: 25px 0;
+  }
+
+  .full-width-header p {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .headline {
+    font-size: 36px;
+    line-height: 1.2;
+    padding: 0 15px; /* ensures better wrapping on smaller screens */
+  }
+
+  .landing {
+    margin: 40px auto;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .full-width-header {
+    padding: 20px 0;
+  }
+
+  .full-width-header p {
+    font-size: 16px;
+  }
+
+  .headline {
+    font-size: 26px;
+    line-height: 1.2;
+    padding: 0 10px;
+  }
+}
+
+/* --- Clean and centered ebook cover --- */
+.ebook-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.ebook-cover img {
+  display: block;
+  width: 750px;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Responsive scaling --- */
+@media (max-width: 768px) {
+  .ebook-cover img {
+    width: 70%;
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ebook-cover img {
+    width: 80%;
+    max-width: 320px;
+    border-radius: 10px;
+  }
+}
+
+
+
 
 
 
