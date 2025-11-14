@@ -4,6 +4,7 @@ body {
   background-color: #fafafa;
   color: #060606;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .full-width-header {
@@ -32,7 +33,7 @@ body {
 
 .landing h1 {
   display: block;          
-  width: 100vw;             
+  width: 100%;             
   background-color: #e2dd17; 
   padding: 30px 0;           
   margin: 0;              
@@ -58,22 +59,19 @@ body {
 }
 
 .headline-bellow p {
-  font-size: 48px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 35px;
+  font-family: "Avenir", "Avenir Next", sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
 }
 
 .yellow-highlight {
   background-color: #e2dd17;
   padding: 0 4px;
   border-radius: 3px;
-}
-
-.ebook-cover img {
-  width: 750px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 15px;    
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
 }
 
 .form-container {
@@ -97,10 +95,26 @@ body {
   margin: 0 auto;
 }
   
-@media (max-width: 768px) {
-  .full-width-header {
-    padding: 25px 0;
-  }
+.testimonials figcaption {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 10px;
+  font-family: "Avenir", "Avenir Next", sans-serif;
+}
+
+.ebook-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.ebook-cover img {
+  display: block;
+  width: 750px;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 
   .full-width-header p {
     font-size: 20px;
@@ -117,11 +131,10 @@ body {
     margin: 40px auto;
     padding: 0 10px;
   }
-}
 
 @media (max-width: 480px) {
   .full-width-header {
-    padding: 20px 0;
+    padding: 20px 0 5px 0;
   }
 
   .full-width-header p {
@@ -129,45 +142,52 @@ body {
   }
 
   .headline {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 1.2;
     padding: 0 10px;
   }
 }
 
-.ebook-cover {
-  display: flex;
-  justify-content: center;
-}
+@media (max-width: 480px) {
+  .ebook-cover {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* prevent horizontal scroll */
+  }
 
-.ebook-cover img {
-  display: block;
-  width: 750px;
-  margin: 30px auto;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-@media (max-width: 768px) {
   .ebook-cover img {
-    width: 70%;
-    max-width: 420px;
+    width: 100%;      /* use parent width, not 100vw */
+    max-width: none;
+    margin: 0;
+    border-radius: 10px;
+    display: block;
+  }
+
+  body {
+    overflow-x: hidden; /* extra safety */
   }
 }
 
 @media (max-width: 480px) {
-  .ebook-cover img {
-    width: 80%;
-    max-width: 320px;
-    border-radius: 10px;
+  .landing {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .headline-bellow p {
+    width: 100%;
+    padding: 0 10px;
   }
 }
 
-
-
-
-
-
+@media (max-width: 480px) {
+  .below-form-text p {
+    font-size: 16px;       /* slightly smaller */
+    line-height: 1.4;      /* tighter but readable */
+    padding: 0 5px;        /* optional: reduce horizontal space */
+  }
+}
 
 
 
